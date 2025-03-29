@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, TextInput, Button } from 'react-native';
+import { View, TextInput, Button, StyleSheet } from 'react-native';
 import TodoItem from './TodoItem';
 
 export default function TodoList() {
@@ -43,3 +43,7 @@ export default function TodoList() {
         </View>
     );
 }
+
+const styles = StyleSheet.create({
+    "": {}
+})
